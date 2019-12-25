@@ -1,4 +1,4 @@
-## deep-xic
+## DeepBiomarker
 ### Deep Mining and Visualization of MS Spectra for Cancer Associated Biomarker Discovery  
 The deep learning model we proposed has a good performance compared with other machine learning methods and may help researchers to find the potential biomarkers which are likely to be missed by the traditional strategy.
 ## File structure
