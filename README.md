@@ -1,6 +1,9 @@
-## DeepBiomarker
-### Deep Mining and Visualization of MS Spectra for Cancer Associated Biomarker Discovery  
-The deep learning model we proposed has a good performance compared with other machine learning methods and may help researchers to find the potential biomarkers which are likely to be missed by the traditional strategy.
+## A deep learning-based tumor classifier directly using MS raw data
+In summary, we presented a novel deep learning-based classifier for distinguishing between tumor and non-tumor samples, which directly used MS raw data, rather than the identification and quantification results of MS data. It directly extracted all the potential precursors in MS raw data, and then built an accurate deep learning-based classification model using the most representative precursors with the best discrimination power. According to our analysis results on three tumor-associated datasets, the CNN model we proposed performed best on the training data and test data, compared with the other popular machine learning models.
+
+Our work is expected to help researchers to make proper clinical decisions and find potential biomarkers with low abundance and can be used as a complementary strategy compared with the traditional one.
+
+Moreover, our deep learning-based classifier using MS raw data can be applied to other classification problems in proteomics, not merely tumor prediction.
 ## File structure
 #### Data_Preprocessing
 Script file for data preprocessing  
@@ -20,10 +23,7 @@ Data augmentation.
 Model classification.  
 3.metrics  
 Classification results.
-#### Visualization
-Script files for classification results visualization  
-1.Grad-Cam  
-2.SHAP
+
 ## Run script
 The data size and format may not be completely suitable, you should be adjusted according to actual needs before running the code.
 
@@ -44,4 +44,4 @@ Ubuntu 16.04 LTS
 ##  Contact
 
   If you have any question, please contact [Dr. Cheng Chang](https://orcid.org/0000-0002-0361-2438)![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
-(Email: [changchengbio@gmail.com](mailto:changchengbio@gmail.com)).
+(Email: [changchengbio@163.com](mailto:changchengbio@163.com)).
